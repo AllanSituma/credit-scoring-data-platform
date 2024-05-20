@@ -1,0 +1,11 @@
+# Dockerfile_dbt
+FROM python:3.9
+
+WORKDIR /app
+
+# Install dbt and necessary dependencies
+RUN pip install dbt
+
+COPY dbt_project /app/dbt_project
+
+CMD ["dbt", "run", "--project-dir", "/app/dbt_project"]

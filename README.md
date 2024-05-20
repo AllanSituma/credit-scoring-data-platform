@@ -3,7 +3,10 @@
 ## Overview
 
 The Credit Scoring Data Platform is a comprehensive solution for managing and analyzing credit-related data. It includes components for data extraction, transformation, loading, modeling, and visualization, enabling organizations to gain insights into customer behavior, loan performance, and more.
-
+#### Folder structure
+````
+                   # README file for the project
+`````
 ## Components
 
 ### 1. MySQL Databases
